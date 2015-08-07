@@ -15,6 +15,7 @@ plugin is built on top of the [Contentful JavaScript Client](https://github.com/
     $ npm install contentful-metalsmith
   ```
 2. Configure it (example for [metalsmith CLI](https://github.com/segmentio/metalsmith#cli))
+If using a template engine, like handlebars, make SURE that the contentful plugin is listed before the template plugin in the JSON file.
 
   ```javascript
     $ vim metalsmith.json
